@@ -133,12 +133,12 @@
 
 
 
-var bithy = 1998
-var cyear = 2020
- var age = bithy-cyear
- document.write("Birth year is " + bithy +"<br>")
- document.write("Current year is " + cyear +"<br>")
- document.write("Age is " + age +"<br>")
+// var bithy = 1998
+// var cyear = 2020
+//  var age = bithy-cyear
+//  document.write("Birth year is " + bithy +"<br>")
+//  document.write("Current year is " + cyear +"<br>")
+//  document.write("Age is " + age +"<br>")
 
 
 
