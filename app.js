@@ -128,7 +128,19 @@
 // var us = 10 , usp = us* 104.80 , sriyal= 25, sriyalp = sriyal* 28, total=sriyalp+usp
 // document.write("Total amount you have is " + total +"<br>")
  
-var x = 7, add= x+5, mul = x*10, div = x/2
+// var x = 7, add= x+5, mul = x*10, div = x/2
+
+
+
+
+var bithy = 1998
+var cyear = 2020
+ var age = bithy-cyear
+ document.write("Birth year is " + bithy +"<br>")
+ document.write("Current year is " + cyear +"<br>")
+ document.write("Age is " + age +"<br>")
+
+
 
 
 
