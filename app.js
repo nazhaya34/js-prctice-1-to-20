@@ -185,15 +185,51 @@
 // document.write(--a - --b + ++b + '<br>');
 // document.write(--a - --b + ++b + b-- + '<br>');
 
-var name= prompt("What is your name")
-alert( name)
-alert('Hi ' + name)
+// var name= prompt("What is your name")
+// alert( name)
+// alert('Hi ' + name)
 
 
 
+// var city = prompt('Name of city')
+// if (city=='karachi')
+// {
+//     document.write('City of Lights')
+// }
 
+// var gen = prompt('Gender')
+// if (gen=='male')
+// {
+//     document.write('Hello! Sir')
+// }
+// if (gen=='female')
+// {
+//     document.write('Hello! Madam')
+// }
 
+// var light = prompt('Which color light do you see')
+// if (light=='red')
+// {
+//     document.write('Please Stop')
+// }
+// if (light=='green')
+// {
+//     document.write('Go')
+// }
+// if (light=='yellow')
+// {
+//     document.write('ready to go')
+// }
 
+var light = prompt('Which color light do you see')
+if (light<= '0.25')
+{
+    document.write('Please refill the fuel')
+}
+if (light>'0.25')
+{
+    document.write('You have enough fuel')
+}
 
 
 
