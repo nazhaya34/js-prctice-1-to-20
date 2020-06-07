@@ -221,21 +221,154 @@
 //     document.write('ready to go')
 // }
 
-var light = prompt('Which color light do you see')
-if (light<= '0.25')
+// var light = prompt('Which color light do you see')
+// if (light<= '0.25')
+// {
+//     document.write('Please refill the fuel')
+// }
+// if (light>'0.25')
+// {
+//     document.write('You have enough fuel')
+// }
+
+// var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }
+//  var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+//  var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+//  var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+//  if (true){
+// alert("True");
+// }
+// if (false){
+// alert("False");
+// }
+
+// if("car" < "cat"){
+//     alert("car is smaller than cat");
+//     }
+
+// var m1 = Number(prompt())
+// var m2 = Number(prompt())
+// var m3 = Number(prompt())
+// var t1 = m1+m2+m3
+// var total = 300
+// var per = (t1/total)*100
+// if (per>= '80')
+// {
+//     document.write("Total Marks:" + total +'<br>')
+//     document.write("Obtained Marks:" + t1+'<br>')
+//     document.write("Percentage:" + per+'<br>')
+//     document.write("Your Grade is A+" +'<br>')
+// }
+// if (per>= '70' && per <=79)
+// {
+//     document.write("Total Marks:" + total+'<br>')
+//     document.write("Obtained Marks:" + t1+'<br>')
+//     document.write("Percentage:" + per+'<br>')
+//     document.write("Your Grade is A" +'<br>')
+// }
+// if (per>= '60'&& per <=69)
+// {
+//     document.write("Total Marks:" + total+'<br>')
+//     document.write("Obtained Marks:" + t1+'<br>')
+//     document.write("Percentage:" + per+'<br>')
+//     document.write("Your Grade is B" +'<br>')
+// }
+// if (per>= '50' && per <=59)
+// {
+//     document.write("Total Marks:" + total+'<br>')
+//     document.write("Obtained Marks:" + t1+'<br>')
+//     document.write("Percentage:" + per +'<br>')
+//     document.write("Your Grade is C" +'<br>')
+// }
+// if (per>= '40' && per <=49)
+// {
+//     document.write("Total Marks:" + total+'<br>')
+//     document.write("Obtained Marks:" + t1+'<br>')
+//     document.write("Percentage:" + per+'<br>')
+//     document.write("Your Grade is D" +'<br>' )
+// }
+
+// var x = Number(prompt())
+// var y = x%3
+// if ( y ==='0')
+// {
+//     document.write("Number is divisible bye 3")
+// }
+// else{
+//     document.write('Number is not divisible by 3')
+// }
+// var x = Number(prompt())
+// var y = x%2
+// if ( y ==='0')
+// {
+//     document.write("Number is even")
+// }
+// else{
+//     document.write('Number is odd')
+// }
+
+// var temp = Number(prompt())
+// if (temp > 40  ){
+//     document.write('Its too hot outside')
+// }
+
+// if (temp <30  ){
+//     document.write('Its normal todya')
+// }
+
+// if (temp <20  ){
+//     document.write('Its cold outside')
+// }
+
+// if (temp < 10  ){
+//     document.write('Its too cold outside')
+// }
+
+
+var n1 = Number(prompt())
+var n2 = Number(prompt())
+var op = prompt()
+
+switch(op)
+
 {
-    document.write('Please refill the fuel')
+   case '+':
+       document.write(n1+n2);
+       break;
+       
+    case '-':
+       document.write(n1+n2);
+       break;
+       case '*':
+        document.write(n1+n2);
+        break;
+        case '/':
+       document.write(n1+n2);
+       break;
+       case '%':
+       document.write(n1+n2);
+       break;
 }
-if (light>'0.25')
-{
-    document.write('You have enough fuel')
-}
-
-
-
-
-
-
-
-
-
