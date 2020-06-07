@@ -143,8 +143,51 @@
 
 
 
+// var r= 5
+// var pie = 3.14
+// var cer = 2*pie*r
+// var total = pie*r*r
+
+// document.write("Radius of circle is "+ r + '<br>')
+// document.write("Circufereence of circle is "+ cer + '<br>')
+// document.write("Total area of circle is "+ total + '<br>')
 
 
+// var snack = 'Wavy';
+// var age = 22;
+// var mage = 40;
+// var amm = 2;
+// var result = (mage-age)*2;
+// document.write("Farvoite snack is  "+ snack + '<br>')
+// document.write("Current age is "+ age + '<br>')
+// document.write("Estimated Maximum Age is "+ mage + '<br>')
+// document.write("Total amount of snack you need is "+ result + '<br>')
+
+
+// var a = 10
+// document.write("The value of ++a is "+ ++a + '<br>')
+// document.write("Know the value of a is "+ a + '<br>')
+// document.write("The value of a++ is "+ a++ + '<br>')
+// document.write("Know the value of a++ is "+ a + '<br>')
+
+// document.write("The value of --a is "+ --a + '<br>')
+// document.write("Know the value of a is "+ a + '<br>')
+// document.write("The value of a-- is "+ a-- + '<br>')
+// document.write("Know the value of a-- is "+ a + '<br>')
+
+
+// var a = 2, b = 1;
+// // var result = --a - --b + ++b + b--;
+// // document.write(result) //3 is output
+
+// document.write(--a + '<br>');
+// document.write(--a - --b + '<br>');
+// document.write(--a - --b + ++b + '<br>');
+// document.write(--a - --b + ++b + b-- + '<br>');
+
+var name= prompt("What is your name")
+alert( name)
+alert('Hi ' + name)
 
 
 
